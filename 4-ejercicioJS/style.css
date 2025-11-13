@@ -1,0 +1,130 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fondo general */
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  padding: 20px;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #2c3e50;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulario */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input[type="submit"],
+form button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover,
+form button:hover {
+  background-color: #2980b9;
+}
+
+/* Buscador */
+#buscador input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+/* Lista de contactos */
+#lista-contactos {
+  margin-top: 30px;
+}
+
+#contactos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contacto {
+  background-color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacto img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.contacto-info {
+  flex-grow: 1;
+}
+
+.contacto-actions button {
+  margin-left: 10px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #e74c3c;
+  color: white;
+  cursor: pointer;
+}
+
+.contacto-actions button:hover {
+  background-color: #c0392b;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+  color: #777;
+}
