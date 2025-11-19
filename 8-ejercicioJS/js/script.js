@@ -8,23 +8,23 @@ document.addEventListener("DOMContentLoaded", () => {
   const marco = document.getElementById("marco-juegos");
 
   boton1.addEventListener("click", () => {
-    marco.src = "pages/tresEnRaya.html";
+    marco.src = "pages/tres-en-raya/index.html";
   });
 
   boton2.addEventListener("click", () => {
-    marco.src = "pages/dibujar.html";
+    marco.src = "pages/dibujar/index.html";
   });
 
   boton3.addEventListener("click", () => {
-    marco.src = "2048/2048-master/index.html"
+    marco.src = "pages/2048/2048-master/index.html"
   });
 
   boton4.addEventListener("click", () => {
-    marco.src = "Snake-JavaScript-master/index.html"
+    marco.src = "pages/Snake-JavaScript-master/index.html"
   });
 
   boton5.addEventListener("click", () => {
-    marco.src = "canvas-tetris-master/index.html";
+    marco.src = "pages/canvas-tetris-master/index.html";
   });
 
   boton6.addEventListener("click", () => {
