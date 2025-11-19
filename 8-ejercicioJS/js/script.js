@@ -28,6 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   boton6.addEventListener("click", () => {
-    marco.src = "";
+    marco.src = "pages/pong/index.html";
   });
 });
